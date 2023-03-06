@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     'authentication.apps.AuthenticationConfig',
     'prediction.apps.PredictionConfig',
+    'documentation.apps.DocumentationConfig',
 ]
 
 MIDDLEWARE = [
