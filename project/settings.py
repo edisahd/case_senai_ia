@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'corsheaders',
 
     'authentication.apps.AuthenticationConfig',
-    #'prediction.apps.PredictionConfig',
+    'prediction.apps.PredictionConfig',
 ]
 
 MIDDLEWARE = [
