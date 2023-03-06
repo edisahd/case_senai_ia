@@ -42,3 +42,23 @@ create database credit_card_fraud_detection;
 ```
 python3 manage.py makemigrations
 ```
+
+8. Execute o comando migrate
+
+```
+python3 manage.py migrate
+```
+
+9. Execute o comando createsuperuser e configure o super usuário (usuário: admin, email: admin@admin.com, senha: Senai@2022)
+
+```
+python3 manage.py createsuperuser
+```
+
+8. Execute o comando runserver
+
+```
+python3 manage.py runserver
+```
+
+Pronto. Agora é acessar o endereço http://127.0.0.1:8000/ para ter acesso à documentação da API via Swagger.
